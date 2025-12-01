@@ -1,0 +1,83 @@
+{
+  "date": "2025-12-01",
+  "updated_at": "2025-12-01T14:06:24.039070",
+  "daily_stats": {
+    "steps": 2004,
+    "distance_km": 3.33,
+    "calories": 1771.0,
+    "active_calories": 906.0,
+    "resting_heart_rate": 50,
+    "min_heart_rate": 47,
+    "max_heart_rate": 163,
+    "stress_level": 18,
+    "body_battery_high": 48,
+    "body_battery_low": 26,
+    "floors_climbed": 0.0,
+    "intensity_minutes": 300
+  },
+  "sleep": {
+    "duration_hours": 7.1,
+    "deep_sleep_hours": 1.6,
+    "light_sleep_hours": 4.0,
+    "rem_sleep_hours": 1.6,
+    "awake_hours": 0.0,
+    "sleep_score": 86
+  },
+  "hrv": {
+    "weekly_average": 45,
+    "last_night": null,
+    "status": "BALANCED"
+  },
+  "recent_activities": [
+    {
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "date": "2025-12-01",
+      "duration_min": 58.3,
+      "distance_km": 1.57,
+      "calories": 627.0,
+      "avg_hr": 135.0,
+      "max_hr": 171.0
+    },
+    {
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "date": "2025-12-01",
+      "duration_min": 11.4,
+      "distance_km": 0.0,
+      "calories": 79.0,
+      "avg_hr": 97.0,
+      "max_hr": 146.0
+    },
+    {
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "date": "2025-11-28",
+      "duration_min": 51.7,
+      "distance_km": 1.3,
+      "calories": 543.0,
+      "avg_hr": 136.0,
+      "max_hr": 182.0
+    },
+    {
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "date": "2025-11-28",
+      "duration_min": 6.6,
+      "distance_km": 0.0,
+      "calories": 82.0,
+      "avg_hr": 129.0,
+      "max_hr": 147.0
+    },
+    {
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "date": "2025-11-27",
+      "duration_min": 52.5,
+      "distance_km": 1.35,
+      "calories": 471.0,
+      "avg_hr": 138.0,
+      "max_hr": 192.0
+    }
+  ]
+}
