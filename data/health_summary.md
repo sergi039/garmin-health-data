@@ -1,7 +1,7 @@
 # Garmin Health Data Summary
 
-**Data fetched:** 2025-12-02 11:08
-**Date range:** 2024-12-02 to 2025-12-02 (365 days)
+**Data fetched:** 2025-12-02 13:37
+**Date range:** 2021-04-07 to 2025-12-02 (1700 days)
 
 ## User Profile
 - **Name:** N/A
@@ -16,7 +16,6 @@
 - **Min/Max HR:** 51/178 bpm
 - **Stress Level:** 25
 - **Body Battery:** 15 - 31
-- **Floors Climbed:** 0.0
 
 ## Last Night's Sleep
 - **Total Sleep:** 6.3 hours
@@ -50,13 +49,12 @@
 - **2025-11-26 Cardio** (indoor_cardio): 11 min, 0.00 km, 79.0 kcal, HR 99.0/135.0
 
 ## Data Availability
-- Daily Stats: 366 days
-- Sleep Data: 366 nights
-- Heart Rate: 366 days
-- HRV: 255 days
-- Stress: 366 days
-- Body Battery: 366 days
-- SpO2: 366 days
-- Respiration: 366 days
+- Daily Stats: 1701 days
+- Sleep Data: 1701 nights
+- Heart Rate: 1701 days
+- HRV: 346 days
+- Stress: 1701 days
+- SpO2: 1701 days
+- Respiration: 1701 days
 - Activities: 2011 activities
 - Weight: 4 entries

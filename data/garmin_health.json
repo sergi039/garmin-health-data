@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2025-12-02T11:08:49.793642",
+  "fetched_at": "2025-12-02T13:37:02.834539",
   "date_range": {
-    "start": "2024-12-02",
+    "start": "2021-04-07",
     "end": "2025-12-02",
-    "days": 365
+    "days": 1700
   },
   "total_activities": 2011,
   "oldest_activity": "2020-05-27",
@@ -20,8 +20,7 @@
     "stress_avg": 25,
     "body_battery_high": 31,
     "body_battery_low": 15,
-    "floors_climbed": 0.0,
-    "intensity_minutes": 300
+    "floors_climbed": 0.0
   },
   "last_sleep": {
     "date": "2025-12-02",
@@ -422,14 +421,13 @@
     }
   ],
   "data_availability": {
-    "daily_stats_days": 366,
-    "sleep_nights": 366,
-    "heart_rate_days": 366,
-    "hrv_days": 255,
-    "stress_days": 366,
-    "body_battery_days": 366,
-    "spo2_days": 366,
-    "respiration_days": 366,
+    "daily_stats_days": 1701,
+    "sleep_nights": 1701,
+    "heart_rate_days": 1701,
+    "hrv_days": 346,
+    "stress_days": 1701,
+    "spo2_days": 1701,
+    "respiration_days": 1701,
     "activities_total": 2011,
     "weight_entries": 4,
     "badges_earned": 71
