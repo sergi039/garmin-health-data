@@ -1,4 +1,7 @@
 .env
 __pycache__/
 *.pyc
-.garmin_session
+.garmin_session/
+
+# Large data files - only push summary
+data/garmin_full_data.json
