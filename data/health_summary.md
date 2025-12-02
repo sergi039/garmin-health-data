@@ -1,21 +1,21 @@
 # Garmin Health Data Summary
 
-**Data fetched:** 2025-12-02 06:57
-**Date range:** 2025-11-02 to 2025-12-02 (30 days)
+**Data fetched:** 2025-12-02 11:08
+**Date range:** 2024-12-02 to 2025-12-02 (365 days)
 
 ## User Profile
 - **Name:** N/A
 - **Email:** N/A
 
 ## Today's Stats
-- **Steps:** 392
-- **Distance:** 0.37 km
-- **Calories:** 621.0
-- **Active Calories:** 30.0
+- **Steps:** 2,228
+- **Distance:** 3.38 km
+- **Calories:** 1567.0
+- **Active Calories:** 696.0
 - **Resting HR:** 54 bpm
-- **Min/Max HR:** 51/111 bpm
-- **Stress Level:** 24
-- **Body Battery:** 0 - 30
+- **Min/Max HR:** 51/178 bpm
+- **Stress Level:** 25
+- **Body Battery:** 15 - 31
 - **Floors Climbed:** 0.0
 
 ## Last Night's Sleep
@@ -38,6 +38,7 @@
 
 ## Recent Activities
 
+- **2025-12-02 Pool Swim** (lap_swimming): 58 min, 1.55 km, 537.0 kcal, HR 144.0/182.0
 - **2025-12-02 Cardio** (indoor_cardio): 4 min, 0.00 km, 23.0 kcal, HR 86.0/121.0
 - **2025-12-01 Pool Swim** (lap_swimming): 58 min, 1.57 km, 627.0 kcal, HR 135.0/171.0
 - **2025-12-01 Cardio** (indoor_cardio): 11 min, 0.00 km, 79.0 kcal, HR 97.0/146.0
@@ -47,16 +48,15 @@
 - **2025-11-27 Cardio** (indoor_cardio): 10 min, 0.00 km, 74.0 kcal, HR 101.0/131.0
 - **2025-11-26 Pool Swim** (lap_swimming): 59 min, 1.93 km, 600.0 kcal, HR 125.0/181.0
 - **2025-11-26 Cardio** (indoor_cardio): 11 min, 0.00 km, 79.0 kcal, HR 99.0/135.0
-- **2025-11-25 Pool Swim** (lap_swimming): 65 min, 2.15 km, 568.0 kcal, HR 136.0/188.0
 
 ## Data Availability
-- Daily Stats: 31 days
-- Sleep Data: 31 nights
-- Heart Rate: 31 days
-- HRV: 31 days
-- Stress: 31 days
-- Body Battery: 31 days
-- SpO2: 31 days
-- Respiration: 31 days
-- Activities: 100 activities
+- Daily Stats: 366 days
+- Sleep Data: 366 nights
+- Heart Rate: 366 days
+- HRV: 255 days
+- Stress: 366 days
+- Body Battery: 366 days
+- SpO2: 366 days
+- Respiration: 366 days
+- Activities: 2011 activities
 - Weight: 4 entries

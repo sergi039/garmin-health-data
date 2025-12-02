@@ -273,11 +273,23 @@ def fetch_all_data(days_history=30):
     print(f"  Got {len(data.get('blood_pressure', []))} blood pressure entries")
 
     # =============================================
-    # ACTIVITIES (Training History)
+    # ACTIVITIES (Training History) - ALL of them
     # =============================================
-    print("Fetching activities...")
-    data["activities"] = safe_call(client.get_activities, 0, 100, default=[])
-    print(f"  Got {len(data.get('activities', []))} activities")
+    print("Fetching ALL activities (this may take a while)...")
+    all_activities = []
+    offset = 0
+    batch_size = 1000
+    while True:
+        batch = safe_call(client.get_activities, offset, batch_size, default=[])
+        if not batch:
+            break
+        all_activities.extend(batch)
+        print(f"  Fetched {len(all_activities)} activities so far...")
+        offset += len(batch)
+        if len(batch) < batch_size:
+            break
+    data["activities"] = all_activities
+    print(f"  Got {len(data.get('activities', []))} TOTAL activities")
 
     # Get activity types for reference
     data["activity_types"] = safe_call(client.get_activity_types, default=[])
@@ -326,18 +338,157 @@ def fetch_all_data(days_history=30):
     print("Fetching workouts...")
     data["workouts"] = safe_call(client.get_workouts, default=[])
 
-    # Save to JSON
+    # Save FULL data to JSON (local only, excluded from git)
     json_file = DATA_DIR / "garmin_full_data.json"
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False, default=str)
 
-    print(f"\n=== Data saved to {json_file} ===")
+    print(f"\n=== Full data saved to {json_file} ===")
     print(f"File size: {json_file.stat().st_size / 1024 / 1024:.2f} MB")
+
+    # Save COMPACT data for GitHub (essential data only)
+    compact_data = generate_compact_data(data)
+    compact_file = DATA_DIR / "garmin_health.json"
+    with open(compact_file, "w", encoding="utf-8") as f:
+        json.dump(compact_data, f, indent=2, ensure_ascii=False, default=str)
+
+    print(f"Compact data saved to {compact_file}")
+    print(f"Compact file size: {compact_file.stat().st_size / 1024:.2f} KB")
 
     # Generate summary
     generate_summary(data)
 
     return data
+
+
+def generate_compact_data(data):
+    """Generate compact JSON for GitHub with essential data only"""
+    compact = {
+        "fetched_at": data.get("fetched_at"),
+        "date_range": data.get("date_range"),
+        "total_activities": len(data.get("activities", [])),
+        "oldest_activity": None,
+        "newest_activity": None,
+    }
+
+    # Add oldest/newest activity dates
+    activities = data.get("activities", [])
+    if activities:
+        compact["newest_activity"] = activities[0].get("startTimeLocal", "")[:10]
+        compact["oldest_activity"] = activities[-1].get("startTimeLocal", "")[:10]
+
+    # Today's stats (compact)
+    if data.get("daily_stats") and len(data["daily_stats"]) > 0:
+        today = data["daily_stats"][0]
+        compact["today"] = {
+            "date": today.get("date"),
+            "steps": today.get("totalSteps"),
+            "distance_km": round(today.get("totalDistanceMeters", 0) / 1000, 2),
+            "calories": today.get("totalKilocalories"),
+            "active_calories": today.get("activeKilocalories"),
+            "resting_hr": today.get("restingHeartRate"),
+            "min_hr": today.get("minHeartRate"),
+            "max_hr": today.get("maxHeartRate"),
+            "stress_avg": today.get("averageStressLevel"),
+            "body_battery_high": today.get("bodyBatteryChargedValue"),
+            "body_battery_low": today.get("bodyBatteryDrainedValue"),
+            "floors_climbed": today.get("floorsAscended"),
+            "intensity_minutes": today.get("intensityMinutesGoal"),
+        }
+
+    # Last night's sleep (compact)
+    if data.get("sleep_history") and len(data["sleep_history"]) > 0:
+        sleep = data["sleep_history"][0]
+        compact["last_sleep"] = {
+            "date": sleep.get("date"),
+            "duration_hours": round(sleep.get("sleepTimeSeconds", 0) / 3600, 1),
+            "deep_hours": round(sleep.get("deepSleepSeconds", 0) / 3600, 1),
+            "light_hours": round(sleep.get("lightSleepSeconds", 0) / 3600, 1),
+            "rem_hours": round(sleep.get("remSleepSeconds", 0) / 3600, 1),
+            "awake_hours": round(sleep.get("awakeSleepSeconds", 0) / 3600, 1),
+            "sleep_score": sleep.get("sleepScores", {}).get("overall", {}).get("value"),
+        }
+
+    # HRV (compact)
+    if data.get("hrv_history") and len(data["hrv_history"]) > 0:
+        hrv = data["hrv_history"][0]
+        summary = hrv.get("hrvSummary", {})
+        compact["hrv"] = {
+            "weekly_avg": summary.get("weeklyAvg"),
+            "last_night": summary.get("lastNight"),
+            "status": summary.get("status"),
+        }
+
+    # Recent activities (last 20, compact)
+    compact["recent_activities"] = []
+    for act in activities[:20]:
+        compact["recent_activities"].append({
+            "date": act.get("startTimeLocal", "")[:10],
+            "name": act.get("activityName"),
+            "type": act.get("activityType", {}).get("typeKey"),
+            "duration_min": round(act.get("duration", 0) / 60, 1),
+            "distance_km": round(act.get("distance", 0) / 1000, 2),
+            "calories": act.get("calories"),
+            "avg_hr": act.get("averageHR"),
+            "max_hr": act.get("maxHR"),
+        })
+
+    # Activity summary by type (all time)
+    activity_summary = {}
+    for act in activities:
+        act_type = act.get("activityType", {}).get("typeKey", "unknown")
+        if act_type not in activity_summary:
+            activity_summary[act_type] = {
+                "count": 0,
+                "total_duration_hours": 0,
+                "total_distance_km": 0,
+                "total_calories": 0,
+            }
+        activity_summary[act_type]["count"] += 1
+        activity_summary[act_type]["total_duration_hours"] += act.get("duration", 0) / 3600
+        activity_summary[act_type]["total_distance_km"] += act.get("distance", 0) / 1000
+        activity_summary[act_type]["total_calories"] += act.get("calories", 0) or 0
+
+    # Round values
+    for act_type in activity_summary:
+        activity_summary[act_type]["total_duration_hours"] = round(
+            activity_summary[act_type]["total_duration_hours"], 1
+        )
+        activity_summary[act_type]["total_distance_km"] = round(
+            activity_summary[act_type]["total_distance_km"], 1
+        )
+
+    compact["activity_summary"] = activity_summary
+
+    # Training status
+    if data.get("training_status"):
+        ts = data["training_status"]
+        compact["training"] = {
+            "vo2_max": ts.get("vo2MaxPreciseValue"),
+            "training_load": ts.get("acuteTrainingLoad"),
+            "recovery_hours": round(ts.get("recoveryTimeInMinutes", 0) / 60, 0),
+        }
+
+    # Personal records
+    if data.get("personal_records"):
+        compact["personal_records"] = data["personal_records"]
+
+    # Data availability
+    compact["data_availability"] = {
+        "daily_stats_days": len(data.get("daily_stats", [])),
+        "sleep_nights": len(data.get("sleep_history", [])),
+        "heart_rate_days": len(data.get("heart_rate_history", [])),
+        "hrv_days": len(data.get("hrv_history", [])),
+        "stress_days": len(data.get("stress_history", [])),
+        "body_battery_days": len(data.get("body_battery_history", [])),
+        "spo2_days": len(data.get("spo2_history", [])),
+        "respiration_days": len(data.get("respiration_history", [])),
+        "activities_total": len(data.get("activities", [])),
+        "weight_entries": len(data.get("weight_history", [])),
+        "badges_earned": len(data.get("earned_badges", [])),
+    }
+
+    return compact
 
 
 def generate_summary(data):

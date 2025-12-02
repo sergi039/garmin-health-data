@@ -1,38 +1,67 @@
 {
-  "date": "2025-12-01",
-  "updated_at": "2025-12-01T14:27:43.834524",
-  "daily_stats": {
-    "steps": 2004,
-    "distance_km": 3.33,
-    "calories": 1771.0,
-    "active_calories": 906.0,
-    "resting_heart_rate": 50,
-    "min_heart_rate": 47,
-    "max_heart_rate": 163,
-    "stress_level": 18,
-    "body_battery_high": 48,
-    "body_battery_low": 26,
+  "fetched_at": "2025-12-02T11:08:49.793642",
+  "date_range": {
+    "start": "2024-12-02",
+    "end": "2025-12-02",
+    "days": 365
+  },
+  "total_activities": 2011,
+  "oldest_activity": "2020-05-27",
+  "newest_activity": "2025-12-02",
+  "today": {
+    "date": "2025-12-02",
+    "steps": 2228,
+    "distance_km": 3.38,
+    "calories": 1567.0,
+    "active_calories": 696.0,
+    "resting_hr": 54,
+    "min_hr": 51,
+    "max_hr": 178,
+    "stress_avg": 25,
+    "body_battery_high": 31,
+    "body_battery_low": 15,
     "floors_climbed": 0.0,
     "intensity_minutes": 300
   },
-  "sleep": {
-    "duration_hours": 7.1,
-    "deep_sleep_hours": 1.6,
-    "light_sleep_hours": 4.0,
-    "rem_sleep_hours": 1.6,
-    "awake_hours": 0.0,
-    "sleep_score": 86
+  "last_sleep": {
+    "date": "2025-12-02",
+    "duration_hours": 6.3,
+    "deep_hours": 1.6,
+    "light_hours": 3.9,
+    "rem_hours": 0.8,
+    "awake_hours": 1.4,
+    "sleep_score": 57
   },
   "hrv": {
-    "weekly_average": 45,
+    "weekly_avg": 44,
     "last_night": null,
     "status": "BALANCED"
   },
   "recent_activities": [
     {
+      "date": "2025-12-02",
       "name": "Pool Swim",
       "type": "lap_swimming",
+      "duration_min": 58.1,
+      "distance_km": 1.55,
+      "calories": 537.0,
+      "avg_hr": 144.0,
+      "max_hr": 182.0
+    },
+    {
+      "date": "2025-12-02",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 4.2,
+      "distance_km": 0.0,
+      "calories": 23.0,
+      "avg_hr": 86.0,
+      "max_hr": 121.0
+    },
+    {
       "date": "2025-12-01",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
       "duration_min": 58.3,
       "distance_km": 1.57,
       "calories": 627.0,
@@ -40,9 +69,9 @@
       "max_hr": 171.0
     },
     {
+      "date": "2025-12-01",
       "name": "Cardio",
       "type": "indoor_cardio",
-      "date": "2025-12-01",
       "duration_min": 11.4,
       "distance_km": 0.0,
       "calories": 79.0,
@@ -50,9 +79,9 @@
       "max_hr": 146.0
     },
     {
+      "date": "2025-11-28",
       "name": "Pool Swim",
       "type": "lap_swimming",
-      "date": "2025-11-28",
       "duration_min": 51.7,
       "distance_km": 1.3,
       "calories": 543.0,
@@ -60,9 +89,9 @@
       "max_hr": 182.0
     },
     {
+      "date": "2025-11-28",
       "name": "Cardio",
       "type": "indoor_cardio",
-      "date": "2025-11-28",
       "duration_min": 6.6,
       "distance_km": 0.0,
       "calories": 82.0,
@@ -70,14 +99,339 @@
       "max_hr": 147.0
     },
     {
+      "date": "2025-11-27",
       "name": "Pool Swim",
       "type": "lap_swimming",
-      "date": "2025-11-27",
       "duration_min": 52.5,
       "distance_km": 1.35,
       "calories": 471.0,
       "avg_hr": 138.0,
       "max_hr": 192.0
+    },
+    {
+      "date": "2025-11-27",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 9.6,
+      "distance_km": 0.0,
+      "calories": 74.0,
+      "avg_hr": 101.0,
+      "max_hr": 131.0
+    },
+    {
+      "date": "2025-11-26",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "duration_min": 58.7,
+      "distance_km": 1.93,
+      "calories": 600.0,
+      "avg_hr": 125.0,
+      "max_hr": 181.0
+    },
+    {
+      "date": "2025-11-26",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 10.7,
+      "distance_km": 0.0,
+      "calories": 79.0,
+      "avg_hr": 99.0,
+      "max_hr": 135.0
+    },
+    {
+      "date": "2025-11-25",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "duration_min": 65.0,
+      "distance_km": 2.15,
+      "calories": 568.0,
+      "avg_hr": 136.0,
+      "max_hr": 188.0
+    },
+    {
+      "date": "2025-11-25",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 5.7,
+      "distance_km": 0.0,
+      "calories": 65.0,
+      "avg_hr": 123.0,
+      "max_hr": 146.0
+    },
+    {
+      "date": "2025-11-24",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "duration_min": 56.1,
+      "distance_km": 1.68,
+      "calories": 478.0,
+      "avg_hr": 131.0,
+      "max_hr": 171.0
+    },
+    {
+      "date": "2025-11-24",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 8.7,
+      "distance_km": 0.0,
+      "calories": 66.0,
+      "avg_hr": 100.0,
+      "max_hr": 134.0
+    },
+    {
+      "date": "2025-11-21",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "duration_min": 58.5,
+      "distance_km": 1.25,
+      "calories": 518.0,
+      "avg_hr": 122.0,
+      "max_hr": 152.0
+    },
+    {
+      "date": "2025-11-21",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 62.9,
+      "distance_km": 0.0,
+      "calories": 213.0,
+      "avg_hr": 74.0,
+      "max_hr": 128.0
+    },
+    {
+      "date": "2025-11-19",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "duration_min": 55.4,
+      "distance_km": 1.15,
+      "calories": 633.0,
+      "avg_hr": 128.0,
+      "max_hr": 171.0
+    },
+    {
+      "date": "2025-11-19",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 8.8,
+      "distance_km": 0.0,
+      "calories": 63.0,
+      "avg_hr": 96.0,
+      "max_hr": 127.0
+    },
+    {
+      "date": "2025-11-18",
+      "name": "Pool Swim",
+      "type": "lap_swimming",
+      "duration_min": 57.1,
+      "distance_km": 1.7,
+      "calories": 512.0,
+      "avg_hr": 133.0,
+      "max_hr": 170.0
+    },
+    {
+      "date": "2025-11-18",
+      "name": "Cardio",
+      "type": "indoor_cardio",
+      "duration_min": 8.4,
+      "distance_km": 0.0,
+      "calories": 60.0,
+      "avg_hr": 97.0,
+      "max_hr": 144.0
     }
-  ]
+  ],
+  "activity_summary": {
+    "lap_swimming": {
+      "count": 777,
+      "total_duration_hours": 690.2,
+      "total_distance_km": 1103.6,
+      "total_calories": 323323.0
+    },
+    "indoor_cardio": {
+      "count": 301,
+      "total_duration_hours": 138.2,
+      "total_distance_km": 0.0,
+      "total_calories": 79461.0
+    },
+    "walking": {
+      "count": 10,
+      "total_duration_hours": 12.8,
+      "total_distance_km": 49.0,
+      "total_calories": 3783.0
+    },
+    "hiking": {
+      "count": 9,
+      "total_duration_hours": 33.7,
+      "total_distance_km": 93.8,
+      "total_calories": 16498.0
+    },
+    "virtual_ride": {
+      "count": 336,
+      "total_duration_hours": 265.6,
+      "total_distance_km": 7122.6,
+      "total_calories": 126790.0
+    },
+    "indoor_cycling": {
+      "count": 7,
+      "total_duration_hours": 5.8,
+      "total_distance_km": 138.1,
+      "total_calories": 3070.0
+    },
+    "running": {
+      "count": 534,
+      "total_duration_hours": 352.6,
+      "total_distance_km": 4217.1,
+      "total_calories": 313759.0
+    },
+    "kiteboarding_v2": {
+      "count": 6,
+      "total_duration_hours": 5.4,
+      "total_distance_km": 86.3,
+      "total_calories": 2821.0
+    },
+    "strength_training": {
+      "count": 4,
+      "total_duration_hours": 3.1,
+      "total_distance_km": 0.0,
+      "total_calories": 1083.0
+    },
+    "mountaineering": {
+      "count": 1,
+      "total_duration_hours": 4.0,
+      "total_distance_km": 11.2,
+      "total_calories": 1764.0
+    },
+    "open_water_swimming": {
+      "count": 2,
+      "total_duration_hours": 1.9,
+      "total_distance_km": 5.5,
+      "total_calories": 1325.0
+    },
+    "cycling": {
+      "count": 18,
+      "total_duration_hours": 23.7,
+      "total_distance_km": 526.2,
+      "total_calories": 11183.0
+    },
+    "road_biking": {
+      "count": 6,
+      "total_duration_hours": 7.1,
+      "total_distance_km": 173.9,
+      "total_calories": 4330.0
+    }
+  },
+  "training": {
+    "vo2_max": null,
+    "training_load": null,
+    "recovery_hours": 0.0
+  },
+  "personal_records": [
+    {
+      "id": 1635058156,
+      "typeId": 12,
+      "status": "ACCEPTED",
+      "activityId": 0,
+      "activityName": null,
+      "activityType": null,
+      "activityStartDateTimeInGMT": null,
+      "actStartDateTimeInGMTFormatted": null,
+      "activityStartDateTimeLocal": null,
+      "activityStartDateTimeLocalFormatted": null,
+      "value": 31975.0,
+      "prStartTimeGmt": 1593644400000,
+      "prStartTimeGmtFormatted": "2020-07-01T23:00:00.0",
+      "prStartTimeLocal": 1593648000000,
+      "prStartTimeLocalFormatted": "2020-07-02T00:00:00.0",
+      "prTypeLabelKey": null,
+      "poolLengthUnit": null
+    },
+    {
+      "id": 1635058157,
+      "typeId": 13,
+      "status": "ACCEPTED",
+      "activityId": 0,
+      "activityName": null,
+      "activityType": null,
+      "activityStartDateTimeInGMT": null,
+      "actStartDateTimeInGMTFormatted": null,
+      "activityStartDateTimeLocal": null,
+      "activityStartDateTimeLocalFormatted": null,
+      "value": 152495.0,
+      "prStartTimeGmt": 1593903600000,
+      "prStartTimeGmtFormatted": "2020-07-04T23:00:00.0",
+      "prStartTimeLocal": 1593907200000,
+      "prStartTimeLocalFormatted": "2020-07-05T00:00:00.0",
+      "prTypeLabelKey": null,
+      "poolLengthUnit": null
+    },
+    {
+      "id": 1635058158,
+      "typeId": 14,
+      "status": "ACCEPTED",
+      "activityId": 0,
+      "activityName": null,
+      "activityType": null,
+      "activityStartDateTimeInGMT": null,
+      "actStartDateTimeInGMTFormatted": null,
+      "activityStartDateTimeLocal": null,
+      "activityStartDateTimeLocalFormatted": null,
+      "value": 545985.0,
+      "prStartTimeGmt": 1596146400000,
+      "prStartTimeGmtFormatted": "2020-07-30T22:00:00.0",
+      "prStartTimeLocal": 1596153600000,
+      "prStartTimeLocalFormatted": "2020-07-31T00:00:00.0",
+      "prTypeLabelKey": null,
+      "poolLengthUnit": null
+    },
+    {
+      "id": 1635683691,
+      "typeId": 15,
+      "status": "ACCEPTED",
+      "activityId": 0,
+      "activityName": null,
+      "activityType": null,
+      "activityStartDateTimeInGMT": null,
+      "actStartDateTimeInGMTFormatted": null,
+      "activityStartDateTimeLocal": null,
+      "activityStartDateTimeLocalFormatted": null,
+      "value": 12.0,
+      "prStartTimeGmt": 1755640800000,
+      "prStartTimeGmtFormatted": "2025-08-19T22:00:00.0",
+      "prStartTimeLocal": 1755648000000,
+      "prStartTimeLocalFormatted": "2025-08-20T00:00:00.0",
+      "prTypeLabelKey": null,
+      "poolLengthUnit": null
+    },
+    {
+      "id": 1635058159,
+      "typeId": 16,
+      "status": "ACCEPTED",
+      "activityId": 0,
+      "activityName": null,
+      "activityType": null,
+      "activityStartDateTimeInGMT": null,
+      "actStartDateTimeInGMTFormatted": null,
+      "activityStartDateTimeLocal": null,
+      "activityStartDateTimeLocalFormatted": null,
+      "value": 0.0,
+      "prStartTimeGmt": 1764630000000,
+      "prStartTimeGmtFormatted": "2025-12-01T23:00:00.0",
+      "prStartTimeLocal": 1764633600000,
+      "prStartTimeLocalFormatted": "2025-12-02T00:00:00.0",
+      "prTypeLabelKey": null,
+      "poolLengthUnit": null
+    }
+  ],
+  "data_availability": {
+    "daily_stats_days": 366,
+    "sleep_nights": 366,
+    "heart_rate_days": 366,
+    "hrv_days": 255,
+    "stress_days": 366,
+    "body_battery_days": 366,
+    "spo2_days": 366,
+    "respiration_days": 366,
+    "activities_total": 2011,
+    "weight_entries": 4,
+    "badges_earned": 71
+  }
 }
