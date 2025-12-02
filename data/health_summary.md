@@ -1,6 +1,6 @@
 # Garmin Health Data Summary
 
-**Data fetched:** 2025-12-02 06:51
+**Data fetched:** 2025-12-02 06:57
 **Date range:** 2025-11-02 to 2025-12-02 (30 days)
 
 ## User Profile
@@ -8,9 +8,9 @@
 - **Email:** N/A
 
 ## Today's Stats
-- **Steps:** 381
-- **Distance:** 0.36 km
-- **Calories:** 619.0
+- **Steps:** 392
+- **Distance:** 0.37 km
+- **Calories:** 621.0
 - **Active Calories:** 30.0
 - **Resting HR:** 54 bpm
 - **Min/Max HR:** 51/111 bpm
