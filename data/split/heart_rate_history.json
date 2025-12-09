@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-12-09T20:28:34.691072",
+  "fetched_at": "2025-12-09T20:31:35.887356",
   "date_range": {
     "start": "2025-11-09",
     "end": "2025-12-09",
@@ -2239,6 +2239,16 @@
       "minHeartRate": 50,
       "restingHeartRate": 53,
       "lastSevenDaysAvgRestingHeartRate": 53,
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "heartRateValues": [
         [
           1765148400000,
@@ -5121,16 +5131,6 @@
           57
         ]
       ],
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "date": "2025-12-08"
     },
     {
@@ -5144,16 +5144,6 @@
       "minHeartRate": 48,
       "restingHeartRate": 51,
       "lastSevenDaysAvgRestingHeartRate": 53,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1765062000000,
@@ -8035,6 +8025,16 @@
           1765148280000,
           59
         ]
+      ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
       ],
       "date": "2025-12-07"
     },
@@ -26980,6 +26980,16 @@
       "minHeartRate": 51,
       "restingHeartRate": 53,
       "lastSevenDaysAvgRestingHeartRate": 53,
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "heartRateValues": [
         [
           1764370800000,
@@ -29861,16 +29871,6 @@
           1764457080000,
           57
         ]
-      ],
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
       ],
       "date": "2025-11-29"
     },
@@ -43830,16 +43830,6 @@
       "minHeartRate": 50,
       "restingHeartRate": 53,
       "lastSevenDaysAvgRestingHeartRate": 53,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1763852400000,
@@ -46722,6 +46712,16 @@
           59
         ]
       ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "date": "2025-11-23"
     },
     {
@@ -46735,16 +46735,6 @@
       "minHeartRate": 48,
       "restingHeartRate": 51,
       "lastSevenDaysAvgRestingHeartRate": 53,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1763766000000,
@@ -49619,6 +49609,16 @@
           68
         ]
       ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "date": "2025-11-22"
     },
     {
@@ -49632,6 +49632,16 @@
       "minHeartRate": 52,
       "restingHeartRate": 54,
       "lastSevenDaysAvgRestingHeartRate": 53,
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "heartRateValues": [
         [
           1763679600000,
@@ -52362,16 +52372,6 @@
           67
         ]
       ],
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "date": "2025-11-21"
     },
     {
@@ -52385,6 +52385,16 @@
       "minHeartRate": 48,
       "restingHeartRate": 54,
       "lastSevenDaysAvgRestingHeartRate": 52,
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "heartRateValues": [
         [
           1763593200000,
@@ -55267,16 +55277,6 @@
           65
         ]
       ],
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "date": "2025-11-20"
     },
     {
@@ -55290,16 +55290,6 @@
       "minHeartRate": 53,
       "restingHeartRate": 55,
       "lastSevenDaysAvgRestingHeartRate": 53,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1763506800000,
@@ -58182,6 +58172,16 @@
           61
         ]
       ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "date": "2025-11-19"
     },
     {
@@ -58195,6 +58195,16 @@
       "minHeartRate": 49,
       "restingHeartRate": 50,
       "lastSevenDaysAvgRestingHeartRate": 53,
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "heartRateValues": [
         [
           1763420400000,
@@ -61048,16 +61058,6 @@
           1763506680000,
           62
         ]
-      ],
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
       ],
       "date": "2025-11-18"
     },
@@ -65790,16 +65790,6 @@
       "minHeartRate": 50,
       "restingHeartRate": 52,
       "lastSevenDaysAvgRestingHeartRate": 54,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1763161200000,
@@ -68682,6 +68672,16 @@
           66
         ]
       ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "date": "2025-11-15"
     },
     {
@@ -71436,16 +71436,6 @@
       "minHeartRate": 54,
       "restingHeartRate": 57,
       "lastSevenDaysAvgRestingHeartRate": 54,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1762988400000,
@@ -74327,6 +74317,16 @@
           1763074680000,
           68
         ]
+      ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
       ],
       "date": "2025-11-13"
     },
@@ -77246,16 +77246,6 @@
       "minHeartRate": 50,
       "restingHeartRate": 51,
       "lastSevenDaysAvgRestingHeartRate": 53,
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
-      ],
       "heartRateValues": [
         [
           1762815600000,
@@ -80138,6 +80128,16 @@
           63
         ]
       ],
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "date": "2025-11-11"
     },
     {
@@ -80151,6 +80151,16 @@
       "minHeartRate": 49,
       "restingHeartRate": 54,
       "lastSevenDaysAvgRestingHeartRate": 53,
+      "heartRateValueDescriptors": [
+        {
+          "key": "timestamp",
+          "index": 0
+        },
+        {
+          "key": "heartrate",
+          "index": 1
+        }
+      ],
       "heartRateValues": [
         [
           1762729200000,
@@ -83032,16 +83042,6 @@
           1762815480000,
           62
         ]
-      ],
-      "heartRateValueDescriptors": [
-        {
-          "key": "timestamp",
-          "index": 0
-        },
-        {
-          "key": "heartrate",
-          "index": 1
-        }
       ],
       "date": "2025-11-10"
     },
