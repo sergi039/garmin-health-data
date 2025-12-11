@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2025-12-10T02:30:09.161933",
+  "fetched_at": "2025-12-11T02:30:11.416008",
   "date_range": {
-    "start": "2025-11-10",
-    "end": "2025-12-10",
+    "start": "2025-11-11",
+    "end": "2025-12-11",
     "days": 30
   },
   "user_profile": {
@@ -441,20 +441,20 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
-      "prePairedWithHRM": false,
       "unRetirable": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
       "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
-      "deviceId": 1023372731,
-      "unitId": 1023372731,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 3,
       "currentFirmwareVersionMinor": 20,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
+      "unitId": 1023372731,
+      "deviceId": 1023372731,
       "currentFirmwareVersion": "3.20",
       "isPrimaryUser": true
     },
@@ -750,20 +750,20 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
-      "prePairedWithHRM": false,
       "unRetirable": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
       "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
-      "deviceId": 3338756254,
-      "unitId": 3338756254,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 3,
       "currentFirmwareVersionMinor": 0,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
+      "unitId": 3338756254,
+      "deviceId": 3338756254,
       "currentFirmwareVersion": "3.00",
       "isPrimaryUser": false
     },
@@ -1060,20 +1060,20 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
-      "prePairedWithHRM": false,
       "unRetirable": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
       "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
-      "deviceId": 3495449769,
-      "unitId": 3495449769,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 20,
       "currentFirmwareVersionMinor": 19,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
+      "unitId": 3495449769,
+      "deviceId": 3495449769,
       "currentFirmwareVersion": "20.19",
       "isPrimaryUser": false
     }
@@ -1094,7 +1094,7 @@
     "previousFitnessAge": 44.08727180986762,
     "components": {
       "vigorousDaysAvg": {
-        "value": 5.0,
+        "value": 5.1,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1103,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 324.5,
+        "value": 335.6,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1120,10 +1120,10 @@
     "fromCalendarDate": null,
     "toCalendarDate": null,
     "calendarDate": "2025-12-10",
-    "time5K": 1586,
-    "time10K": 3494,
-    "timeHalfMarathon": 8159,
-    "timeMarathon": 18909
+    "time5K": 1580,
+    "time10K": 3481,
+    "timeHalfMarathon": 8130,
+    "timeMarathon": 18845
   },
   "personal_records": [
     {
@@ -1213,13 +1213,36 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 0.0,
+      "value": 1.0,
       "prStartTimeGmt": 1765321200000,
       "prStartTimeGmtFormatted": "2025-12-09T23:00:00.0",
       "prStartTimeLocal": 1765324800000,
       "prStartTimeLocalFormatted": "2025-12-10T00:00:00.0",
       "prTypeLabelKey": null,
       "poolLengthUnit": null
+    },
+    {
+      "id": 2805795152,
+      "typeId": 17,
+      "status": "ACCEPTED",
+      "activityId": 21217769991,
+      "activityName": "Pool Swim",
+      "activityType": "lap_swimming",
+      "activityStartDateTimeInGMT": 1765350416000,
+      "actStartDateTimeInGMTFormatted": "2025-12-10T07:06:56.0",
+      "activityStartDateTimeLocal": 1765354016000,
+      "activityStartDateTimeLocalFormatted": "2025-12-10T08:06:56.0",
+      "value": 3400.0,
+      "prStartTimeGmt": 1765350416000,
+      "prStartTimeGmtFormatted": "2025-12-10T07:06:56.0",
+      "prStartTimeLocal": null,
+      "prStartTimeLocalFormatted": null,
+      "prTypeLabelKey": null,
+      "poolLengthUnit": {
+        "id": 1,
+        "key": "meter",
+        "factor": 100.0
+      }
     }
   ],
   "goals": {},
@@ -4087,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-11-10",
-    "endDate": "2025-12-10",
+    "startDate": "2025-11-11",
+    "endDate": "2025-12-11",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1762732800000,
-      "until": 1765411199999,
+      "from": 1762819200000,
+      "until": 1765497599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4107,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1762732800000,
-      "until": 1765411199999,
+      "from": 1762819200000,
+      "until": 1765497599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
