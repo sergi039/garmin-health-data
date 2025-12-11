@@ -28,6 +28,12 @@ jobs:
           echo "GARMIN_EMAIL=${{ secrets.GARMIN_EMAIL }}" > .env
           echo "GARMIN_PASSWORD=${{ secrets.GARMIN_PASSWORD }}" >> .env
 
+      - name: Restore Garmin session
+        run: |
+          mkdir -p .garmin_session
+          echo "${{ secrets.GARMIN_OAUTH1_TOKEN }}" | base64 -d > .garmin_session/oauth1_token.json
+          echo "${{ secrets.GARMIN_OAUTH2_TOKEN }}" | base64 -d > .garmin_session/oauth2_token.json
+
       - name: Fetch Garmin data
         run: |
           python fetch_all_garmin_data.py --days 30
