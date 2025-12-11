@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-12-11T05:11:45.983926",
+  "fetched_at": "2025-12-11T06:25:35.146834",
   "date_range": {
     "start": "2025-11-11",
     "end": "2025-12-11",
@@ -11,9 +11,9 @@
       "userProfilePK": 85938267,
       "calendarDate": "2025-12-11",
       "startTimestampGMT": "2025-12-10T23:00:00.0",
-      "endTimestampGMT": "2025-12-11T05:10:00.0",
+      "endTimestampGMT": "2025-12-11T05:56:00.0",
       "startTimestampLocal": "2025-12-11T00:00:00.0",
-      "endTimestampLocal": "2025-12-11T06:10:00.0",
+      "endTimestampLocal": "2025-12-11T06:56:00.0",
       "sleepStartTimestampGMT": "2025-12-10T20:45:30.0",
       "sleepEndTimestampGMT": "2025-12-11T03:56:30.0",
       "sleepStartTimestampLocal": "2025-12-10T21:45:30.0",

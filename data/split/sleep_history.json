@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2025-12-11T05:11:45.983926",
+  "fetched_at": "2025-12-11T06:25:35.146834",
   "date_range": {
     "start": "2025-11-11",
     "end": "2025-12-11",
@@ -117,7 +117,7 @@
         "userProfilePk": 85938267,
         "calendarDate": "2025-12-12",
         "deviceId": 3495449769,
-        "timestampGmt": "2025-12-11T05:03:11",
+        "timestampGmt": "2025-12-11T05:34:40",
         "baseline": 460,
         "actual": 460,
         "feedback": "NO_CHANGE_BALANCED",
