@@ -1,0 +1,41 @@
+name: Sync Garmin Health Data
+
+on:
+  schedule:
+    # Run every day at 6:00 AM UTC (8:00 AM Madrid time)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install garminconnect python-dotenv
+
+      - name: Create .env file
+        run: |
+          echo "GARMIN_EMAIL=${{ secrets.GARMIN_EMAIL }}" > .env
+          echo "GARMIN_PASSWORD=${{ secrets.GARMIN_PASSWORD }}" >> .env
+
+      - name: Fetch Garmin data
+        run: |
+          python fetch_all_garmin_data.py --days 30
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update Garmin data $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
