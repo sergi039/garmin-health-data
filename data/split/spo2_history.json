@@ -1,35 +1,106 @@
 {
-  "fetched_at": "2025-12-17T06:24:25.202270",
+  "fetched_at": "2025-12-18T06:24:14.589283",
   "date_range": {
-    "start": "2025-11-17",
-    "end": "2025-12-17",
+    "start": "2025-11-18",
+    "end": "2025-12-18",
     "days": 30
   },
   "total_days": 31,
   "spo2_history": [
     {
       "userProfilePK": 85938267,
-      "calendarDate": "2025-12-17",
-      "startTimestampGMT": "2025-12-16T23:00:00.0",
-      "endTimestampGMT": "2025-12-17T05:42:00.0",
-      "startTimestampLocal": "2025-12-17T00:00:00.0",
-      "endTimestampLocal": "2025-12-17T06:42:00.0",
-      "sleepStartTimestampGMT": "2025-12-16T20:58:18.0",
-      "sleepEndTimestampGMT": "2025-12-17T02:59:18.0",
-      "sleepStartTimestampLocal": "2025-12-16T21:58:18.0",
-      "sleepEndTimestampLocal": "2025-12-17T03:59:18.0",
+      "calendarDate": "2025-12-18",
+      "startTimestampGMT": "2025-12-17T23:00:00.0",
+      "endTimestampGMT": "2025-12-18T06:04:00.0",
+      "startTimestampLocal": "2025-12-18T00:00:00.0",
+      "endTimestampLocal": "2025-12-18T07:04:00.0",
+      "sleepStartTimestampGMT": "2025-12-17T20:29:43.0",
+      "sleepEndTimestampGMT": "2025-12-18T04:47:43.0",
+      "sleepStartTimestampLocal": "2025-12-17T21:29:43.0",
+      "sleepEndTimestampLocal": "2025-12-18T05:47:43.0",
       "tomorrowSleepStartTimestampGMT": null,
       "tomorrowSleepEndTimestampGMT": null,
       "tomorrowSleepStartTimestampLocal": null,
       "tomorrowSleepEndTimestampLocal": null,
+      "averageSpO2": 96.0,
+      "lowestSpO2": 79,
+      "lastSevenDaysAvgSpO2": 95.57142857142857,
+      "latestSpO2": 94,
+      "latestSpO2TimestampGMT": "2025-12-18T05:29:00.0",
+      "latestSpO2TimestampLocal": "2025-12-18T06:29:00.0",
+      "avgSleepSpO2": 96.0,
+      "avgTomorrowSleepSpO2": null,
+      "spO2ValueDescriptorsDTOList": [
+        {
+          "spo2ValueDescriptorIndex": 0,
+          "spo2ValueDescriptorKey": "timestamp"
+        },
+        {
+          "spo2ValueDescriptorIndex": 1,
+          "spo2ValueDescriptorKey": "spo2Reading"
+        },
+        {
+          "spo2ValueDescriptorIndex": 2,
+          "spo2ValueDescriptorKey": "singleReadingPlottable"
+        }
+      ],
+      "spO2SingleValues": null,
+      "continuousReadingDTOList": null,
+      "spO2HourlyAverages": [
+        [
+          1766012400000,
+          94
+        ],
+        [
+          1766016000000,
+          94
+        ],
+        [
+          1766019600000,
+          94
+        ],
+        [
+          1766023200000,
+          95
+        ],
+        [
+          1766026800000,
+          97
+        ],
+        [
+          1766030400000,
+          99
+        ],
+        [
+          1766034000000,
+          97
+        ]
+      ],
+      "date": "2025-12-18"
+    },
+    {
+      "userProfilePK": 85938267,
+      "calendarDate": "2025-12-17",
+      "startTimestampGMT": "2025-12-16T23:00:00.0",
+      "endTimestampGMT": "2025-12-17T23:00:00.0",
+      "startTimestampLocal": "2025-12-17T00:00:00.0",
+      "endTimestampLocal": "2025-12-18T00:00:00.0",
+      "sleepStartTimestampGMT": "2025-12-16T20:58:18.0",
+      "sleepEndTimestampGMT": "2025-12-17T02:59:18.0",
+      "sleepStartTimestampLocal": "2025-12-16T21:58:18.0",
+      "sleepEndTimestampLocal": "2025-12-17T03:59:18.0",
+      "tomorrowSleepStartTimestampGMT": "2025-12-17T20:29:43.0",
+      "tomorrowSleepEndTimestampGMT": "2025-12-18T04:47:43.0",
+      "tomorrowSleepStartTimestampLocal": "2025-12-17T21:29:43.0",
+      "tomorrowSleepEndTimestampLocal": "2025-12-18T05:47:43.0",
       "averageSpO2": 95.0,
       "lowestSpO2": 87,
       "lastSevenDaysAvgSpO2": 95.71428571428571,
-      "latestSpO2": 99,
-      "latestSpO2TimestampGMT": "2025-12-17T05:29:00.0",
-      "latestSpO2TimestampLocal": "2025-12-17T06:29:00.0",
+      "latestSpO2": 91,
+      "latestSpO2TimestampGMT": "2025-12-17T22:59:00.0",
+      "latestSpO2TimestampLocal": "2025-12-17T23:59:00.0",
       "avgSleepSpO2": 96.0,
-      "avgTomorrowSleepSpO2": null,
+      "avgTomorrowSleepSpO2": 96.0,
       "spO2ValueDescriptorsDTOList": [
         {
           "spo2ValueDescriptorIndex": 0,
@@ -74,6 +145,14 @@
         [
           1765947600000,
           96
+        ],
+        [
+          1766005200000,
+          94
+        ],
+        [
+          1766008800000,
+          93
         ]
       ],
       "date": "2025-12-17"
@@ -2244,57 +2323,6 @@
         ]
       ],
       "date": "2025-11-18"
-    },
-    {
-      "userProfilePK": 85938267,
-      "calendarDate": "2025-11-17",
-      "startTimestampGMT": "2025-11-16T23:00:00.0",
-      "endTimestampGMT": "2025-11-17T23:00:00.0",
-      "startTimestampLocal": "2025-11-17T00:00:00.0",
-      "endTimestampLocal": "2025-11-18T00:00:00.0",
-      "sleepStartTimestampGMT": null,
-      "sleepEndTimestampGMT": null,
-      "sleepStartTimestampLocal": null,
-      "sleepEndTimestampLocal": null,
-      "tomorrowSleepStartTimestampGMT": "2025-11-17T21:19:57.0",
-      "tomorrowSleepEndTimestampGMT": "2025-11-18T05:29:57.0",
-      "tomorrowSleepStartTimestampLocal": "2025-11-17T22:19:57.0",
-      "tomorrowSleepEndTimestampLocal": "2025-11-18T06:29:57.0",
-      "averageSpO2": 95.0,
-      "lowestSpO2": 89,
-      "lastSevenDaysAvgSpO2": 94.0,
-      "latestSpO2": 94,
-      "latestSpO2TimestampGMT": "2025-11-17T23:00:00.0",
-      "latestSpO2TimestampLocal": "2025-11-18T00:00:00.0",
-      "avgSleepSpO2": null,
-      "avgTomorrowSleepSpO2": 94.0,
-      "spO2ValueDescriptorsDTOList": [
-        {
-          "spo2ValueDescriptorIndex": 0,
-          "spo2ValueDescriptorKey": "timestamp"
-        },
-        {
-          "spo2ValueDescriptorIndex": 1,
-          "spo2ValueDescriptorKey": "spo2Reading"
-        },
-        {
-          "spo2ValueDescriptorIndex": 2,
-          "spo2ValueDescriptorKey": "singleReadingPlottable"
-        }
-      ],
-      "spO2SingleValues": null,
-      "continuousReadingDTOList": null,
-      "spO2HourlyAverages": [
-        [
-          1763413200000,
-          95
-        ],
-        [
-          1763416800000,
-          95
-        ]
-      ],
-      "date": "2025-11-17"
     }
   ]
 }
