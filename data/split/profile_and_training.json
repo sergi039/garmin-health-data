@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2025-12-21T06:22:37.378477",
+  "fetched_at": "2025-12-22T06:26:35.827396",
   "date_range": {
-    "start": "2025-11-21",
-    "end": "2025-12-21",
+    "start": "2025-11-22",
+    "end": "2025-12-22",
     "days": 30
   },
   "user_profile": {
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-11-21",
-    "endDate": "2025-12-21",
+    "startDate": "2025-11-22",
+    "endDate": "2025-12-22",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1763683200000,
-      "until": 1766361599999,
+      "from": 1763769600000,
+      "until": 1766447999999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1763683200000,
-      "until": 1766361599999,
+      "from": 1763769600000,
+      "until": 1766447999999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
