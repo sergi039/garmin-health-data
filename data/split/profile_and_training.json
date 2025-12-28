@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2025-12-27T06:23:01.169744",
+  "fetched_at": "2025-12-28T06:23:09.952392",
   "date_range": {
-    "start": "2025-11-27",
-    "end": "2025-12-27",
+    "start": "2025-11-28",
+    "end": "2025-12-28",
     "days": 30
   },
   "user_profile": {
@@ -441,20 +441,20 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
-      "prePairedWithHRM": false,
       "unRetirable": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
       "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
+      "unitId": 1023372731,
       "deviceId": 1023372731,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 3,
       "currentFirmwareVersionMinor": 20,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
-      "unitId": 1023372731,
       "currentFirmwareVersion": "3.20",
       "isPrimaryUser": true
     },
@@ -750,20 +750,20 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
-      "prePairedWithHRM": false,
       "unRetirable": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
       "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
+      "unitId": 3338756254,
       "deviceId": 3338756254,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 3,
       "currentFirmwareVersionMinor": 0,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
-      "unitId": 3338756254,
       "currentFirmwareVersion": "3.00",
       "isPrimaryUser": false
     },
@@ -1060,20 +1060,20 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
-      "prePairedWithHRM": false,
       "unRetirable": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
       "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
+      "unitId": 3495449769,
       "deviceId": 3495449769,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 20,
       "currentFirmwareVersionMinor": 24,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
-      "unitId": 3495449769,
       "currentFirmwareVersion": "20.24",
       "isPrimaryUser": false
     }
@@ -1085,25 +1085,63 @@
     "mostRecentTrainingStatus": null,
     "heatAltitudeAcclimationDTO": null
   },
-  "training_readiness": [],
+  "training_readiness": [
+    {
+      "userProfilePK": 85938267,
+      "calendarDate": "2025-12-28",
+      "timestamp": "2025-12-27T23:53:56.0",
+      "timestampLocal": "2025-12-28T00:53:56.0",
+      "deviceId": 3495449769,
+      "level": "HIGH",
+      "feedbackLong": "HIGH_RT_AVAILABLE_SS_UNKNOWN",
+      "feedbackShort": "WELL_RECOVERED",
+      "score": 82,
+      "sleepScore": null,
+      "sleepScoreFactorPercent": 0,
+      "sleepScoreFactorFeedback": "NONE",
+      "recoveryTime": 0,
+      "recoveryTimeFactorPercent": 100,
+      "recoveryTimeFactorFeedback": "VERY_GOOD",
+      "acwrFactorPercent": 100,
+      "acwrFactorFeedback": "VERY_GOOD",
+      "acuteLoad": 570,
+      "stressHistoryFactorPercent": 100,
+      "stressHistoryFactorFeedback": "GOOD",
+      "hrvFactorPercent": 100,
+      "hrvFactorFeedback": "VERY_GOOD",
+      "hrvWeeklyAverage": 46,
+      "sleepHistoryFactorPercent": 59,
+      "sleepHistoryFactorFeedback": "MODERATE",
+      "validSleep": false,
+      "inputContext": "UPDATE_REALTIME_VARIABLES",
+      "primaryActivityTracker": true,
+      "recoveryTimeChangePhrase": null,
+      "sleepHistoryFactorFeedbackPhrase": null,
+      "hrvFactorFeedbackPhrase": null,
+      "stressHistoryFactorFeedbackPhrase": null,
+      "acwrFactorFeedbackPhrase": null,
+      "recoveryTimeFactorFeedbackPhrase": null,
+      "sleepScoreFactorFeedbackPhrase": null
+    }
+  ],
   "max_metrics": [],
   "fitness_age": {
     "chronologicalAge": 51,
-    "fitnessAge": 44.08727180986762,
+    "fitnessAge": 43.9485671914076,
     "achievableFitnessAge": 44.30701330140893,
-    "previousFitnessAge": 44.08727180986762,
+    "previousFitnessAge": 43.9485671914076,
     "components": {
       "vigorousDaysAvg": {
-        "value": 5.0,
+        "value": 5.1,
         "stale": false,
         "numOfWeeksForIm": 6
       },
       "rhr": {
-        "value": 52,
+        "value": 51,
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 335.5,
+        "value": 329.3,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1113,13 +1151,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2025-12-26T00:00:00.0"
+    "lastUpdated": "2025-12-28T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2025-12-27",
+    "calendarDate": "2025-12-28",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -1213,7 +1251,7 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 0.0,
+      "value": 1.0,
       "prStartTimeGmt": 1766790000000,
       "prStartTimeGmtFormatted": "2025-12-26T23:00:00.0",
       "prStartTimeLocal": 1766793600000,
@@ -4110,12 +4148,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-11-27",
-    "endDate": "2025-12-27",
+    "startDate": "2025-11-28",
+    "endDate": "2025-12-28",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764201600000,
-      "until": 1766879999999,
+      "from": 1764288000000,
+      "until": 1766966399999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4168,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764201600000,
-      "until": 1766879999999,
+      "from": 1764288000000,
+      "until": 1766966399999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
