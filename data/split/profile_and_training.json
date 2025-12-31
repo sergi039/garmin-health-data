@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2025-12-30T06:24:38.019436",
+  "fetched_at": "2025-12-31T06:24:55.835510",
   "date_range": {
-    "start": "2025-11-30",
-    "end": "2025-12-30",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
     "days": 30
   },
   "user_profile": {
@@ -441,11 +441,13 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
+      "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
+      "otherAssociation": false,
       "unitId": 1023372731,
       "deviceId": 1023372731,
       "wifiSetup": false,
@@ -454,9 +456,7 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.20",
-      "isPrimaryUser": true,
-      "otherAssociation": false,
-      "unRetirable": false
+      "isPrimaryUser": true
     },
     {
       "appSupport": true,
@@ -750,11 +750,13 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
+      "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
+      "otherAssociation": false,
       "unitId": 3338756254,
       "deviceId": 3338756254,
       "wifiSetup": false,
@@ -763,9 +765,7 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.00",
-      "isPrimaryUser": false,
-      "otherAssociation": false,
-      "unRetirable": false
+      "isPrimaryUser": false
     },
     {
       "appSupport": true,
@@ -1060,11 +1060,13 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
+      "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
+      "otherAssociation": false,
       "unitId": 3495449769,
       "deviceId": 3495449769,
       "wifiSetup": false,
@@ -1073,9 +1075,7 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
       "currentFirmwareVersion": "20.24",
-      "isPrimaryUser": false,
-      "otherAssociation": false,
-      "unRetirable": false
+      "isPrimaryUser": false
     }
   ],
   "training_status": {
@@ -1103,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 334.6,
+        "value": 340.3,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1113,13 +1113,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2025-12-29T00:00:00.0"
+    "lastUpdated": "2025-12-30T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2025-12-29",
+    "calendarDate": "2025-12-30",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -1213,11 +1213,11 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 2.0,
-      "prStartTimeGmt": 1766876400000,
-      "prStartTimeGmtFormatted": "2025-12-27T23:00:00.0",
-      "prStartTimeLocal": 1766880000000,
-      "prStartTimeLocalFormatted": "2025-12-28T00:00:00.0",
+      "value": 0.0,
+      "prStartTimeGmt": 1767049200000,
+      "prStartTimeGmtFormatted": "2025-12-29T23:00:00.0",
+      "prStartTimeLocal": 1767052800000,
+      "prStartTimeLocalFormatted": "2025-12-30T00:00:00.0",
       "prTypeLabelKey": null,
       "poolLengthUnit": null
     },
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-11-30",
-    "endDate": "2025-12-30",
+    "startDate": "2025-12-01",
+    "endDate": "2025-12-31",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764460800000,
-      "until": 1767139199999,
+      "from": 1764547200000,
+      "until": 1767225599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764460800000,
-      "until": 1767139199999,
+      "from": 1764547200000,
+      "until": 1767225599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
