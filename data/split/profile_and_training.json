@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2025-12-31T06:24:55.835510",
+  "fetched_at": "2026-01-01T06:24:49.421351",
   "date_range": {
-    "start": "2025-12-01",
-    "end": "2025-12-31",
+    "start": "2025-12-02",
+    "end": "2026-01-01",
     "days": 30
   },
   "user_profile": {
@@ -441,13 +441,13 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
-      "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
+      "unRetirable": false,
+      "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
-      "otherAssociation": false,
       "unitId": 1023372731,
       "deviceId": 1023372731,
       "wifiSetup": false,
@@ -750,13 +750,13 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
-      "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
+      "unRetirable": false,
+      "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
-      "otherAssociation": false,
       "unitId": 3338756254,
       "deviceId": 3338756254,
       "wifiSetup": false,
@@ -1060,13 +1060,13 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
-      "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
+      "unRetirable": false,
+      "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
-      "otherAssociation": false,
       "unitId": 3495449769,
       "deviceId": 3495449769,
       "wifiSetup": false,
@@ -1103,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 340.3,
+        "value": 331.0,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1113,13 +1113,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2025-12-30T00:00:00.0"
+    "lastUpdated": "2025-12-31T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2025-12-30",
+    "calendarDate": "2026-01-01",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -1213,7 +1213,7 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 0.0,
+      "value": 1.0,
       "prStartTimeGmt": 1767049200000,
       "prStartTimeGmtFormatted": "2025-12-29T23:00:00.0",
       "prStartTimeLocal": 1767052800000,
@@ -1627,7 +1627,7 @@
       ],
       "badgeSeriesId": 3,
       "badgeStartDate": "2018-12-31T00:00:00.0",
-      "badgeEndDate": "2025-12-31T23:59:59.0",
+      "badgeEndDate": "2026-12-31T23:59:59.0",
       "userProfileId": 85938267,
       "fullName": "Sergi Sinyugin",
       "displayName": "dbc91f11-88b5-45a8-bfbd-228ba88363e4",
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-01",
-    "endDate": "2025-12-31",
+    "startDate": "2025-12-02",
+    "endDate": "2026-01-01",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764547200000,
-      "until": 1767225599999,
+      "from": 1764633600000,
+      "until": 1767311999999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764547200000,
-      "until": 1767225599999,
+      "from": 1764633600000,
+      "until": 1767311999999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
