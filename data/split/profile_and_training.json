@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-01-01T06:24:49.421351",
+  "fetched_at": "2026-01-02T06:24:57.933049",
   "date_range": {
-    "start": "2025-12-02",
-    "end": "2026-01-01",
+    "start": "2025-12-03",
+    "end": "2026-01-02",
     "days": 30
   },
   "user_profile": {
@@ -441,9 +441,9 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
-      "corporateDevice": false,
-      "prePairedWithHRM": false,
       "unRetirable": false,
+      "prePairedWithHRM": false,
+      "corporateDevice": false,
       "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
@@ -750,9 +750,9 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
-      "corporateDevice": false,
-      "prePairedWithHRM": false,
       "unRetirable": false,
+      "prePairedWithHRM": false,
+      "corporateDevice": false,
       "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
@@ -1060,9 +1060,9 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
-      "corporateDevice": false,
-      "prePairedWithHRM": false,
       "unRetirable": false,
+      "prePairedWithHRM": false,
+      "corporateDevice": false,
       "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-02",
-    "endDate": "2026-01-01",
+    "startDate": "2025-12-03",
+    "endDate": "2026-01-02",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764633600000,
-      "until": 1767311999999,
+      "from": 1764720000000,
+      "until": 1767398399999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764633600000,
-      "until": 1767311999999,
+      "from": 1764720000000,
+      "until": 1767398399999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
