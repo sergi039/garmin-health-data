@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-01-02T06:24:57.933049",
+  "fetched_at": "2026-01-03T06:23:09.543046",
   "date_range": {
-    "start": "2025-12-03",
-    "end": "2026-01-02",
+    "start": "2025-12-04",
+    "end": "2026-01-03",
     "days": 30
   },
   "user_profile": {
@@ -441,9 +441,9 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
-      "unRetirable": false,
-      "prePairedWithHRM": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
+      "unRetirable": false,
       "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
@@ -750,9 +750,9 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
-      "unRetirable": false,
-      "prePairedWithHRM": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
+      "unRetirable": false,
       "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
@@ -1060,9 +1060,9 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
-      "unRetirable": false,
-      "prePairedWithHRM": false,
       "corporateDevice": false,
+      "prePairedWithHRM": false,
+      "unRetirable": false,
       "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
@@ -1103,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 331.0,
+        "value": 334.1,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1113,13 +1113,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2025-12-31T00:00:00.0"
+    "lastUpdated": "2026-01-02T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2026-01-01",
+    "calendarDate": "2026-01-02",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -1213,11 +1213,11 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 1.0,
-      "prStartTimeGmt": 1767049200000,
-      "prStartTimeGmtFormatted": "2025-12-29T23:00:00.0",
-      "prStartTimeLocal": 1767052800000,
-      "prStartTimeLocalFormatted": "2025-12-30T00:00:00.0",
+      "value": 2.0,
+      "prStartTimeGmt": 1767308400000,
+      "prStartTimeGmtFormatted": "2026-01-01T23:00:00.0",
+      "prStartTimeLocal": 1767312000000,
+      "prStartTimeLocalFormatted": "2026-01-02T00:00:00.0",
       "prTypeLabelKey": null,
       "poolLengthUnit": null
     },
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-03",
-    "endDate": "2026-01-02",
+    "startDate": "2025-12-04",
+    "endDate": "2026-01-03",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764720000000,
-      "until": 1767398399999,
+      "from": 1764806400000,
+      "until": 1767484799999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764720000000,
-      "until": 1767398399999,
+      "from": 1764806400000,
+      "until": 1767484799999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
