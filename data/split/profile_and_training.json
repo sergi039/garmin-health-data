@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-01-03T06:23:09.543046",
+  "fetched_at": "2026-01-04T06:23:17.773830",
   "date_range": {
-    "start": "2025-12-04",
-    "end": "2026-01-03",
+    "start": "2025-12-05",
+    "end": "2026-01-04",
     "days": 30
   },
   "user_profile": {
@@ -443,8 +443,6 @@
       "vivohubConfigurable": null,
       "corporateDevice": false,
       "prePairedWithHRM": false,
-      "unRetirable": false,
-      "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
@@ -456,7 +454,9 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.20",
-      "isPrimaryUser": true
+      "isPrimaryUser": true,
+      "otherAssociation": false,
+      "unRetirable": false
     },
     {
       "appSupport": true,
@@ -752,8 +752,6 @@
       "vivohubConfigurable": null,
       "corporateDevice": false,
       "prePairedWithHRM": false,
-      "unRetirable": false,
-      "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
@@ -765,7 +763,9 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.00",
-      "isPrimaryUser": false
+      "isPrimaryUser": false,
+      "otherAssociation": false,
+      "unRetirable": false
     },
     {
       "appSupport": true,
@@ -1062,8 +1062,6 @@
       "vivohubConfigurable": null,
       "corporateDevice": false,
       "prePairedWithHRM": false,
-      "unRetirable": false,
-      "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
@@ -1075,7 +1073,9 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
       "currentFirmwareVersion": "20.24",
-      "isPrimaryUser": false
+      "isPrimaryUser": false,
+      "otherAssociation": false,
+      "unRetirable": false
     }
   ],
   "training_status": {
@@ -1094,7 +1094,7 @@
     "previousFitnessAge": 43.9485671914076,
     "components": {
       "vigorousDaysAvg": {
-        "value": 5.0,
+        "value": 4.8,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1103,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 334.1,
+        "value": 332.0,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1113,13 +1113,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2026-01-02T00:00:00.0"
+    "lastUpdated": "2026-01-03T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2026-01-02",
+    "calendarDate": "2026-01-03",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-04",
-    "endDate": "2026-01-03",
+    "startDate": "2025-12-05",
+    "endDate": "2026-01-04",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764806400000,
-      "until": 1767484799999,
+      "from": 1764892800000,
+      "until": 1767571199999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764806400000,
-      "until": 1767484799999,
+      "from": 1764892800000,
+      "until": 1767571199999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
