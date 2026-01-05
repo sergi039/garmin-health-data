@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-01-04T06:23:17.773830",
+  "fetched_at": "2026-01-05T06:30:29.589734",
   "date_range": {
-    "start": "2025-12-05",
-    "end": "2026-01-04",
+    "start": "2025-12-06",
+    "end": "2026-01-05",
     "days": 30
   },
   "user_profile": {
@@ -443,20 +443,20 @@
       "vivohubConfigurable": null,
       "corporateDevice": false,
       "prePairedWithHRM": false,
+      "unRetirable": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
-      "unitId": 1023372731,
+      "otherAssociation": false,
       "deviceId": 1023372731,
+      "unitId": 1023372731,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 3,
       "currentFirmwareVersionMinor": 20,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.20",
-      "isPrimaryUser": true,
-      "otherAssociation": false,
-      "unRetirable": false
+      "isPrimaryUser": true
     },
     {
       "appSupport": true,
@@ -752,20 +752,20 @@
       "vivohubConfigurable": null,
       "corporateDevice": false,
       "prePairedWithHRM": false,
+      "unRetirable": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
-      "unitId": 3338756254,
+      "otherAssociation": false,
       "deviceId": 3338756254,
+      "unitId": 3338756254,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 3,
       "currentFirmwareVersionMinor": 0,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.00",
-      "isPrimaryUser": false,
-      "otherAssociation": false,
-      "unRetirable": false
+      "isPrimaryUser": false
     },
     {
       "appSupport": true,
@@ -1062,20 +1062,20 @@
       "vivohubConfigurable": null,
       "corporateDevice": false,
       "prePairedWithHRM": false,
+      "unRetirable": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
-      "unitId": 3495449769,
+      "otherAssociation": false,
       "deviceId": 3495449769,
+      "unitId": 3495449769,
       "wifiSetup": false,
       "currentFirmwareVersionMajor": 20,
       "currentFirmwareVersionMinor": 24,
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
       "currentFirmwareVersion": "20.24",
-      "isPrimaryUser": false,
-      "otherAssociation": false,
-      "unRetirable": false
+      "isPrimaryUser": false
     }
   ],
   "training_status": {
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-05",
-    "endDate": "2026-01-04",
+    "startDate": "2025-12-06",
+    "endDate": "2026-01-05",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1764892800000,
-      "until": 1767571199999,
+      "from": 1764979200000,
+      "until": 1767657599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1764892800000,
-      "until": 1767571199999,
+      "from": 1764979200000,
+      "until": 1767657599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
