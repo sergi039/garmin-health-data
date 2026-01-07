@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-01-06T06:25:29.008285",
+  "fetched_at": "2026-01-07T06:25:47.838934",
   "date_range": {
-    "start": "2025-12-07",
-    "end": "2026-01-06",
+    "start": "2025-12-08",
+    "end": "2026-01-07",
     "days": 30
   },
   "user_profile": {
@@ -444,7 +444,6 @@
       "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
-      "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
       "displayName": "Index Smart Scale",
@@ -456,7 +455,8 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.20",
-      "isPrimaryUser": true
+      "isPrimaryUser": true,
+      "otherAssociation": false
     },
     {
       "appSupport": true,
@@ -753,7 +753,6 @@
       "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
-      "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
       "displayName": "Edge 1030 Plua",
@@ -765,7 +764,8 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.00",
-      "isPrimaryUser": false
+      "isPrimaryUser": false,
+      "otherAssociation": false
     },
     {
       "appSupport": true,
@@ -1063,7 +1063,6 @@
       "unRetirable": false,
       "corporateDevice": false,
       "prePairedWithHRM": false,
-      "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
       "displayName": "fenix 8 - 51mm, AMOLED",
@@ -1075,7 +1074,8 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
       "currentFirmwareVersion": "20.24",
-      "isPrimaryUser": false
+      "isPrimaryUser": false,
+      "otherAssociation": false
     }
   ],
   "training_status": {
@@ -1094,7 +1094,7 @@
     "previousFitnessAge": 43.9485671914076,
     "components": {
       "vigorousDaysAvg": {
-        "value": 4.8,
+        "value": 4.3,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1103,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 332.0,
+        "value": 302.3,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1113,13 +1113,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2026-01-03T00:00:00.0"
+    "lastUpdated": "2026-01-07T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2026-01-03",
+    "calendarDate": "2026-01-07",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -1213,11 +1213,11 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 2.0,
-      "prStartTimeGmt": 1767308400000,
-      "prStartTimeGmtFormatted": "2026-01-01T23:00:00.0",
-      "prStartTimeLocal": 1767312000000,
-      "prStartTimeLocalFormatted": "2026-01-02T00:00:00.0",
+      "value": 0.0,
+      "prStartTimeGmt": 1767654000000,
+      "prStartTimeGmtFormatted": "2026-01-05T23:00:00.0",
+      "prStartTimeLocal": 1767657600000,
+      "prStartTimeLocalFormatted": "2026-01-06T00:00:00.0",
       "prTypeLabelKey": null,
       "poolLengthUnit": null
     },
@@ -4110,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-07",
-    "endDate": "2026-01-06",
+    "startDate": "2025-12-08",
+    "endDate": "2026-01-07",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1765065600000,
-      "until": 1767743999999,
+      "from": 1765152000000,
+      "until": 1767830399999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4130,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1765065600000,
-      "until": 1767743999999,
+      "from": 1765152000000,
+      "until": 1767830399999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
