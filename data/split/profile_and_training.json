@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-01-09T06:25:12.435004",
+  "fetched_at": "2026-01-10T06:22:29.792757",
   "date_range": {
-    "start": "2025-12-10",
-    "end": "2026-01-09",
+    "start": "2025-12-11",
+    "end": "2026-01-10",
     "days": 30
   },
   "user_profile": {
@@ -441,9 +441,8 @@
       "registeredDate": 1654615706000,
       "actualProductSku": "010-01591-11",
       "vivohubConfigurable": null,
-      "corporateDevice": false,
       "prePairedWithHRM": false,
-      "unRetirable": false,
+      "corporateDevice": false,
       "otherAssociation": false,
       "serialNumber": "4JU214682",
       "shortName": null,
@@ -456,7 +455,8 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.20",
-      "isPrimaryUser": true
+      "isPrimaryUser": true,
+      "unRetirable": false
     },
     {
       "appSupport": true,
@@ -750,9 +750,8 @@
       "registeredDate": 1596623725000,
       "actualProductSku": "010-02424-11",
       "vivohubConfigurable": null,
-      "corporateDevice": false,
       "prePairedWithHRM": false,
-      "unRetirable": false,
+      "corporateDevice": false,
       "otherAssociation": false,
       "serialNumber": "6ET033077",
       "shortName": null,
@@ -765,7 +764,8 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": false,
       "currentFirmwareVersion": "3.00",
-      "isPrimaryUser": false
+      "isPrimaryUser": false,
+      "unRetirable": false
     },
     {
       "appSupport": true,
@@ -1060,9 +1060,8 @@
       "registeredDate": 1765003351000,
       "actualProductSku": "010-02905-21",
       "vivohubConfigurable": null,
-      "corporateDevice": false,
       "prePairedWithHRM": false,
-      "unRetirable": false,
+      "corporateDevice": false,
       "otherAssociation": false,
       "serialNumber": "8JZ055419",
       "shortName": null,
@@ -1075,190 +1074,18 @@
       "activeInd": 1,
       "primaryActivityTrackerIndicator": true,
       "currentFirmwareVersion": "20.24",
-      "isPrimaryUser": false
+      "isPrimaryUser": false,
+      "unRetirable": false
     }
   ],
   "training_status": {
     "userId": 85938267,
-    "mostRecentVO2Max": {
-      "userId": 85938267,
-      "generic": {
-        "calendarDate": "2025-12-20",
-        "vo2MaxPreciseValue": 47.6,
-        "vo2MaxValue": 48.0,
-        "fitnessAge": null,
-        "fitnessAgeDescription": null,
-        "maxMetCategory": 0
-      },
-      "cycling": null,
-      "heatAltitudeAcclimation": {
-        "calendarDate": "2026-01-09",
-        "altitudeAcclimationDate": "2026-01-09",
-        "previousAltitudeAcclimationDate": "2026-01-09",
-        "heatAcclimationDate": "2026-01-09",
-        "previousHeatAcclimationDate": "2026-01-09",
-        "altitudeAcclimation": 0,
-        "previousAltitudeAcclimation": 0,
-        "heatAcclimationPercentage": 0,
-        "previousHeatAcclimationPercentage": 0,
-        "heatTrend": null,
-        "altitudeTrend": null,
-        "currentAltitude": 0,
-        "previousAltitude": 0,
-        "acclimationPercentage": 0,
-        "previousAcclimationPercentage": 0,
-        "altitudeAcclimationLocalTimestamp": "2026-01-09T06:52:48.0"
-      }
-    },
-    "mostRecentTrainingLoadBalance": {
-      "userId": 85938267,
-      "metricsTrainingLoadBalanceDTOMap": {
-        "3495449769": {
-          "calendarDate": "2026-01-09",
-          "deviceId": 3495449769,
-          "monthlyLoadAerobicLow": 569.1066,
-          "monthlyLoadAerobicHigh": 1427.0813,
-          "monthlyLoadAnaerobic": 584.97864,
-          "monthlyLoadAerobicLowTargetMin": 544,
-          "monthlyLoadAerobicLowTargetMax": 1382,
-          "monthlyLoadAerobicHighTargetMin": 991,
-          "monthlyLoadAerobicHighTargetMax": 1828,
-          "monthlyLoadAnaerobicTargetMin": 279,
-          "monthlyLoadAnaerobicTargetMax": 837,
-          "trainingBalanceFeedbackPhrase": "BALANCED",
-          "primaryTrainingDevice": true
-        }
-      },
-      "recordedDevices": [
-        {
-          "deviceId": 3495449769,
-          "imageURL": "https://res.garmin.com/en/products/010-02905-21/v/c1_01_md.png",
-          "deviceName": "fenix 8 - 51mm, AMOLED",
-          "category": 0
-        }
-      ]
-    },
-    "mostRecentTrainingStatus": {
-      "userId": 85938267,
-      "latestTrainingStatusData": {
-        "3495449769": {
-          "calendarDate": "2026-01-09",
-          "sinceDate": "2026-01-05",
-          "weeklyTrainingLoad": null,
-          "trainingStatus": 4,
-          "timestamp": 1767937968000,
-          "deviceId": 3495449769,
-          "loadTunnelMin": null,
-          "loadTunnelMax": null,
-          "loadLevelTrend": null,
-          "sport": null,
-          "subSport": null,
-          "fitnessTrendSport": "NONE",
-          "fitnessTrend": 0,
-          "trainingStatusFeedbackPhrase": "MAINTAINING_1",
-          "trainingPaused": false,
-          "acuteTrainingLoadDTO": {
-            "acwrPercent": 38,
-            "acwrStatus": "OPTIMAL",
-            "acwrStatusFeedback": "FEEDBACK_2",
-            "dailyTrainingLoadAcute": 664,
-            "maxTrainingLoadChronic": 1017.0,
-            "minTrainingLoadChronic": 542.4,
-            "dailyTrainingLoadChronic": 678,
-            "dailyAcuteChronicWorkloadRatio": 0.9
-          },
-          "primaryTrainingDevice": true
-        }
-      },
-      "recordedDevices": [
-        {
-          "deviceId": 3495449769,
-          "imageURL": "https://res.garmin.com/en/products/010-02905-21/v/c1_01_md.png",
-          "deviceName": "fenix 8 - 51mm, AMOLED",
-          "category": 0
-        }
-      ],
-      "showSelector": false,
-      "lastPrimarySyncDate": "2026-01-09"
-    },
+    "mostRecentVO2Max": null,
+    "mostRecentTrainingLoadBalance": null,
+    "mostRecentTrainingStatus": null,
     "heatAltitudeAcclimationDTO": null
   },
-  "training_readiness": [
-    {
-      "userProfilePK": 85938267,
-      "calendarDate": "2026-01-09",
-      "timestamp": "2026-01-09T05:52:48.0",
-      "timestampLocal": "2026-01-09T06:52:48.0",
-      "deviceId": 3495449769,
-      "level": "MODERATE",
-      "feedbackLong": "MOD_HRV_UNBALANCED",
-      "feedbackShort": "LISTEN_TO_YOUR_BODY",
-      "score": 52,
-      "sleepScore": 83,
-      "sleepScoreFactorPercent": 76,
-      "sleepScoreFactorFeedback": "GOOD",
-      "recoveryTime": 1238,
-      "recoveryTimeFactorPercent": 67,
-      "recoveryTimeFactorFeedback": "MODERATE",
-      "acwrFactorPercent": 92,
-      "acwrFactorFeedback": "GOOD",
-      "acuteLoad": 664,
-      "stressHistoryFactorPercent": 76,
-      "stressHistoryFactorFeedback": "GOOD",
-      "hrvFactorPercent": 46,
-      "hrvFactorFeedback": "MODERATE",
-      "hrvWeeklyAverage": 42,
-      "sleepHistoryFactorPercent": 74,
-      "sleepHistoryFactorFeedback": "GOOD",
-      "validSleep": true,
-      "inputContext": "AFTER_POST_EXERCISE_RESET",
-      "primaryActivityTracker": true,
-      "recoveryTimeChangePhrase": "NO_CHANGE_SLEEP",
-      "sleepHistoryFactorFeedbackPhrase": null,
-      "hrvFactorFeedbackPhrase": null,
-      "stressHistoryFactorFeedbackPhrase": null,
-      "acwrFactorFeedbackPhrase": null,
-      "recoveryTimeFactorFeedbackPhrase": null,
-      "sleepScoreFactorFeedbackPhrase": null
-    },
-    {
-      "userProfilePK": 85938267,
-      "calendarDate": "2026-01-09",
-      "timestamp": "2026-01-09T05:43:10.0",
-      "timestampLocal": "2026-01-09T06:43:10.0",
-      "deviceId": 3495449769,
-      "level": "MODERATE",
-      "feedbackLong": "MOD_HRV_UNBALANCED",
-      "feedbackShort": "LISTEN_TO_YOUR_BODY",
-      "score": 52,
-      "sleepScore": 83,
-      "sleepScoreFactorPercent": 76,
-      "sleepScoreFactorFeedback": "GOOD",
-      "recoveryTime": 1247,
-      "recoveryTimeFactorPercent": 67,
-      "recoveryTimeFactorFeedback": "MODERATE",
-      "acwrFactorPercent": 93,
-      "acwrFactorFeedback": "GOOD",
-      "acuteLoad": 635,
-      "stressHistoryFactorPercent": 76,
-      "stressHistoryFactorFeedback": "GOOD",
-      "hrvFactorPercent": 46,
-      "hrvFactorFeedback": "MODERATE",
-      "hrvWeeklyAverage": 42,
-      "sleepHistoryFactorPercent": 74,
-      "sleepHistoryFactorFeedback": "GOOD",
-      "validSleep": true,
-      "inputContext": "AFTER_WAKEUP_RESET",
-      "primaryActivityTracker": true,
-      "recoveryTimeChangePhrase": "NO_CHANGE_SLEEP",
-      "sleepHistoryFactorFeedbackPhrase": null,
-      "hrvFactorFeedbackPhrase": null,
-      "stressHistoryFactorFeedbackPhrase": null,
-      "acwrFactorFeedbackPhrase": null,
-      "recoveryTimeFactorFeedbackPhrase": null,
-      "sleepScoreFactorFeedbackPhrase": null
-    }
-  ],
+  "training_readiness": [],
   "max_metrics": [],
   "fitness_age": {
     "chronologicalAge": 51,
@@ -1276,7 +1103,7 @@
         "stale": false
       },
       "vigorousMinutesAvg": {
-        "value": 302.3,
+        "value": 311.6,
         "stale": false,
         "numOfWeeksForIm": 6
       },
@@ -1286,13 +1113,13 @@
         "lastMeasurementDate": "2023-12-18"
       }
     },
-    "lastUpdated": "2026-01-09T00:00:00.0"
+    "lastUpdated": "2026-01-10T00:00:00.0"
   },
   "race_predictions": {
     "userId": 85938267,
     "fromCalendarDate": null,
     "toCalendarDate": null,
-    "calendarDate": "2026-01-09",
+    "calendarDate": "2026-01-10",
     "time5K": 1508,
     "time10K": 3325,
     "timeHalfMarathon": 7753,
@@ -1386,11 +1213,11 @@
       "actStartDateTimeInGMTFormatted": null,
       "activityStartDateTimeLocal": null,
       "activityStartDateTimeLocalFormatted": null,
-      "value": 2.0,
-      "prStartTimeGmt": 1767826800000,
-      "prStartTimeGmtFormatted": "2026-01-07T23:00:00.0",
-      "prStartTimeLocal": 1767830400000,
-      "prStartTimeLocalFormatted": "2026-01-08T00:00:00.0",
+      "value": 0.0,
+      "prStartTimeGmt": 1767999600000,
+      "prStartTimeGmtFormatted": "2026-01-09T23:00:00.0",
+      "prStartTimeLocal": 1768003200000,
+      "prStartTimeLocalFormatted": "2026-01-10T00:00:00.0",
       "prTypeLabelKey": null,
       "poolLengthUnit": null
     },
@@ -4283,12 +4110,12 @@
     }
   ],
   "body_composition": {
-    "startDate": "2025-12-10",
-    "endDate": "2026-01-09",
+    "startDate": "2025-12-11",
+    "endDate": "2026-01-10",
     "dateWeightList": [],
     "totalAverage": {
-      "from": 1765324800000,
-      "until": 1768003199999,
+      "from": 1765411200000,
+      "until": 1768089599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
@@ -4303,8 +4130,8 @@
   "weight_history": {
     "dailyWeightSummaries": [],
     "totalAverage": {
-      "from": 1765324800000,
-      "until": 1768003199999,
+      "from": 1765411200000,
+      "until": 1768089599999,
       "weight": null,
       "bmi": null,
       "bodyFat": null,
